@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"scss": "sass --no-source-map styles/main.scss styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mushfiq814/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mushfiq814/website/issues"
+  },
+  "homepage": "https://github.com/mushfiq814/website#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
