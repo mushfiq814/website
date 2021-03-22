@@ -1,10 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+li {
+  list-style: none;
+}
+
 .main-container {
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.main-container #home-main {
+  display: grid;
+  padding: 3rem;
+}
+.main-container #home-main #logo {
+  width: 2rem;
+}
+.main-container #home-main nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.main-container #home-main nav ul li a {
+  display: flex;
+}
+.main-container #home-main #home-text > * {
+  padding: 0.5rem 0;
+}
+.main-container #home-main h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.main-container #home-main h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.main-container #home-main #social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.main-container #home-main #social-links li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main-container #home-main #social-links img {
+  width: 2rem;
+}
 .main-container #home-cover {
-  background-image: url("../images/main.jpg");
+  background-color: grey;
+  background-image: url("images/main.jpg");
 }
 
 * {

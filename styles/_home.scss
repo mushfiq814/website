@@ -1,3 +1,6 @@
+li {
+	list-style: none;
+}
 
 .main-container {
 	height: 100%;
@@ -5,13 +8,62 @@
 	grid-template-columns: 1fr 1fr;
 
 	#home-main {
+		display: grid;
+		padding: 3rem;
+
+		#logo {
+			width: 2rem;
+		}
+
+		nav ul {
+			display: flex;
+			align-items: center;
+			gap: 2rem;
+
+			// to center logo inside anchor tag
+			li a {
+				display: flex;
+			}
+		}
+
+		#home-text > * {
+			padding: 0.5rem 0;
+		}
+
+		h2 {
+			font-size: 2.5rem;
+			font-weight: 700;
+		}
+
+		h1 {
+			font-size: 4rem;
+			font-weight: 900;
+		}
+
+		#social-links {
+			display: flex;
+			flex-direction: row;
+			gap: 1rem;
+
+			li {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+			}
+
+			img {
+				width: 2rem;
+			}
+		}
 
 	}
 
 	#home-cover {
-		background-image: url('../images/main.jpg');
+		background-image: url('images/main.jpg');
+		background-size: cover;
 	}
 
 }
+
 
 
