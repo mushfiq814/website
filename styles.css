@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main-container #home-cover {
+  background-image: url("../images/main.jpg");
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
