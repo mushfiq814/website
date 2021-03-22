@@ -1,0 +1,17 @@
+
+.main-container {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	#home-main {
+
+	}
+
+	#home-cover {
+		background-image: url('../images/main.jpg');
+	}
+
+}
+
+
