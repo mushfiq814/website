@@ -48,8 +48,8 @@ li {
   width: 2rem;
 }
 .main-container #home-cover {
-  background-color: grey;
   background-image: url("images/main.jpg");
+  background-size: cover;
 }
 
 * {
